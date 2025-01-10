@@ -10,6 +10,11 @@ firebase-debug.*.log*
 # Firebase cache
 .firebase/
 
+# next.js
+/.next/
+/out/
+/.vscode/
+
 # Firebase config
 
 # Uncomment this if you'd like others to create their own Firebase project.
@@ -64,3 +69,4 @@ node_modules/
 
 # dotenv environment variables file
 .env
+test-nextjs-13-firebase-adminsdk-1iybo-183b8cdf55.json
