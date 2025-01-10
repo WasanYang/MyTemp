@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TEST_NEXTJS_13 }}'
           channelId: live
           projectId: test-nextjs-13
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
