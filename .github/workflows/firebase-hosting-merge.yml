@@ -13,10 +13,6 @@ jobs:
       - uses: actions/checkout@v4
       # - name: Install dependencies
       # run: npm ci
-      - name: Check token
-        run: echo ${{ secrets.GITHUB_TOKEN }}
-      - name: Check token
-        run: echo ${{ secrets.FIREBASE_SERVICE_ACCOUNT_TEST_NEXTJS_13 }}
       - name: Debug info
         run: |
           echo "Node version:"
